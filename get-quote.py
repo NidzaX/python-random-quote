@@ -11,6 +11,10 @@ def primary():
   rnd = random.randint(0, last)
 
   print(quotes[rnd])
+  
+  last = len(quotes) - 1
+
+
 
 if __name__== "__main__":
   primary()
